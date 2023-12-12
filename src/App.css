@@ -108,8 +108,7 @@ body{
 .cart{
   display: flex;
   flex-direction: column;
-  width: 0;
-  /* width: 300px; */
+  width: 300px;
   height: 100vh;
   right: 0;
   top: 100px;
@@ -133,13 +132,15 @@ body{
 
 
 @keyframes slideIn {
-  100% { width: 300px; }
+  0% { right: -300px;}
+
+  100% { right: 0px; }
 }
 
 @keyframes slideOut {
-  0% { width: 300px;}
+  0% { right: 0px;}
 
-  100% { width: 0; }
+  100% { right: -300px; }
 }
 
 
