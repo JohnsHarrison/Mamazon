@@ -154,6 +154,10 @@ body{
   margin: 10px 0px;
 }
 
+.cart-card img{
+  width: 300px;
+}
+
 .contentStyle img{
   width: 300px;
   height: 300px;
